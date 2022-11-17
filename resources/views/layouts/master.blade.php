@@ -10,9 +10,17 @@
 
         @include('partials.left_side_navbar')
 
-        @yield('content')
+        <!-- Layout container -->
+        <div class="layout-page">
+            @include('partials.search_bar_with_user')
+            <!-- Content wrapper -->
+            <div class="content-wrapper">
+                @yield('content')
+                @include('partials.footer')
+            </div>
+            <!-- Content wrapper -->
 
-        @include('partials.footer')
+        </div>
 
     </div>
 </div>

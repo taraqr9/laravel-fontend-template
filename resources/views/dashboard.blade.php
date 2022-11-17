@@ -1,120 +1,8 @@
 @extends('layouts.master', ['title' => 'Welcome to Dashboard'])
 
 @section('content')
-
-    <!-- Layout container -->
-    <div class="layout-page">
-
-        <!-- Navbar -->
-        <nav
-            class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"
-            id="layout-navbar"
-        >
-            <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
-                <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
-                    <i class="bx bx-menu bx-sm"></i>
-                </a>
-            </div>
-
-            <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
-                <!-- Search -->
-                <div class="navbar-nav align-items-center">
-                    <div class="nav-item d-flex align-items-center">
-                        <i class="bx bx-search fs-4 lh-0"></i>
-                        <input
-                            type="text"
-                            class="form-control border-0 shadow-none"
-                            placeholder="Search..."
-                            aria-label="Search..."
-                        />
-                    </div>
-                </div>
-                <!-- /Search -->
-
-                <ul class="navbar-nav flex-row align-items-center ms-auto">
-                    <!-- Place this tag where you want the button to render. -->
-                    <li class="nav-item lh-1 me-3">
-                        <a
-                            class="github-button"
-                            href="https://github.com/themeselection/sneat-html-admin-template-free"
-                            data-icon="octicon-star"
-                            data-size="large"
-                            data-show-count="true"
-                            aria-label="Star themeselection/sneat-html-admin-template-free on GitHub"
-                        >Star</a
-                        >
-                    </li>
-
-                    <!-- User -->
-                    <li class="nav-item navbar-dropdown dropdown-user dropdown">
-                        <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
-                            <div class="avatar avatar-online">
-                                <img src="../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
-                            </div>
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li>
-                                <a class="dropdown-item" href="#">
-                                    <div class="d-flex">
-                                        <div class="flex-shrink-0 me-3">
-                                            <div class="avatar avatar-online">
-                                                <img src="../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
-                                            </div>
-                                        </div>
-                                        <div class="flex-grow-1">
-                                            <span class="fw-semibold d-block">John Doe</span>
-                                            <small class="text-muted">Admin</small>
-                                        </div>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <div class="dropdown-divider"></div>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">
-                                    <i class="bx bx-user me-2"></i>
-                                    <span class="align-middle">My Profile</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">
-                                    <i class="bx bx-cog me-2"></i>
-                                    <span class="align-middle">Settings</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">
-                            <span class="d-flex align-items-center align-middle">
-                              <i class="flex-shrink-0 bx bx-credit-card me-2"></i>
-                              <span class="flex-grow-1 align-middle">Billing</span>
-                              <span class="flex-shrink-0 badge badge-center rounded-pill bg-danger w-px-20 h-px-20">4</span>
-                            </span>
-                                </a>
-                            </li>
-                            <li>
-                                <div class="dropdown-divider"></div>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="auth-login-basic.html">
-                                    <i class="bx bx-power-off me-2"></i>
-                                    <span class="align-middle">Log Out</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <!--/ User -->
-                </ul>
-            </div>
-        </nav>
-
-        <!-- / Navbar -->
-
-        <!-- Content wrapper -->
-        <div class="content-wrapper">
-
-        <!-- Content -->
-        <div class="container-xxl flex-grow-1 container-p-y">
+    <!-- Content -->
+    <div class="container-xxl flex-grow-1 container-p-y">
         <div class="row">
             <div class="col-lg-8 mb-4 order-0">
                 <div class="card">
@@ -123,7 +11,8 @@
                             <div class="card-body">
                                 <h5 class="card-title text-primary">Congratulations John! 🎉</h5>
                                 <p class="mb-4">
-                                    You have done <span class="fw-bold">72%</span> more sales today. Check your new badge in
+                                    You have done <span class="fw-bold">72%</span> more sales today. Check your new
+                                    badge in
                                     your profile.
                                 </p>
 
@@ -176,7 +65,8 @@
                                 </div>
                                 <span class="fw-semibold d-block mb-1">Profit</span>
                                 <h3 class="card-title mb-2">$12,628</h3>
-                                <small class="text-success fw-semibold"><i class="bx bx-up-arrow-alt"></i> +72.80%</small>
+                                <small class="text-success fw-semibold"><i class="bx bx-up-arrow-alt"></i>
+                                    +72.80%</small>
                             </div>
                         </div>
                     </div>
@@ -210,7 +100,8 @@
                                 </div>
                                 <span>Sales</span>
                                 <h3 class="card-title text-nowrap mb-1">$4,679</h3>
-                                <small class="text-success fw-semibold"><i class="bx bx-up-arrow-alt"></i> +28.42%</small>
+                                <small class="text-success fw-semibold"><i class="bx bx-up-arrow-alt"></i>
+                                    +28.42%</small>
                             </div>
                         </div>
                     </div>
@@ -238,7 +129,8 @@
                                         >
                                             2022
                                         </button>
-                                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="growthReportId">
+                                        <div class="dropdown-menu dropdown-menu-end"
+                                             aria-labelledby="growthReportId">
                                             <a class="dropdown-item" href="javascript:void(0);">2021</a>
                                             <a class="dropdown-item" href="javascript:void(0);">2020</a>
                                             <a class="dropdown-item" href="javascript:void(0);">2019</a>
@@ -249,10 +141,12 @@
                             <div id="growthChart"></div>
                             <div class="text-center fw-semibold pt-3 mb-2">62% Company Growth</div>
 
-                            <div class="d-flex px-xxl-4 px-lg-2 p-4 gap-xxl-3 gap-lg-1 gap-3 justify-content-between">
+                            <div
+                                class="d-flex px-xxl-4 px-lg-2 p-4 gap-xxl-3 gap-lg-1 gap-3 justify-content-between">
                                 <div class="d-flex">
                                     <div class="me-2">
-                                        <span class="badge bg-label-primary p-2"><i class="bx bx-dollar text-primary"></i></span>
+                                            <span class="badge bg-label-primary p-2"><i
+                                                    class="bx bx-dollar text-primary"></i></span>
                                     </div>
                                     <div class="d-flex flex-column">
                                         <small>2022</small>
@@ -261,7 +155,8 @@
                                 </div>
                                 <div class="d-flex">
                                     <div class="me-2">
-                                        <span class="badge bg-label-info p-2"><i class="bx bx-wallet text-info"></i></span>
+                                        <span class="badge bg-label-info p-2"><i
+                                                class="bx bx-wallet text-info"></i></span>
                                     </div>
                                     <div class="d-flex flex-column">
                                         <small>2021</small>
@@ -281,7 +176,8 @@
                             <div class="card-body">
                                 <div class="card-title d-flex align-items-start justify-content-between">
                                     <div class="avatar flex-shrink-0">
-                                        <img src="../assets/img/icons/unicons/paypal.png" alt="Credit Card" class="rounded" />
+                                        <img src="../assets/img/icons/unicons/paypal.png" alt="Credit Card"
+                                             class="rounded"/>
                                     </div>
                                     <div class="dropdown">
                                         <button
@@ -302,7 +198,8 @@
                                 </div>
                                 <span class="d-block mb-1">Payments</span>
                                 <h3 class="card-title text-nowrap mb-2">$2,456</h3>
-                                <small class="text-danger fw-semibold"><i class="bx bx-down-arrow-alt"></i> -14.82%</small>
+                                <small class="text-danger fw-semibold"><i class="bx bx-down-arrow-alt"></i>
+                                    -14.82%</small>
                             </div>
                         </div>
                     </div>
@@ -311,7 +208,8 @@
                             <div class="card-body">
                                 <div class="card-title d-flex align-items-start justify-content-between">
                                     <div class="avatar flex-shrink-0">
-                                        <img src="../assets/img/icons/unicons/cc-primary.png" alt="Credit Card" class="rounded" />
+                                        <img src="../assets/img/icons/unicons/cc-primary.png" alt="Credit Card"
+                                             class="rounded"/>
                                     </div>
                                     <div class="dropdown">
                                         <button
@@ -332,7 +230,8 @@
                                 </div>
                                 <span class="fw-semibold d-block mb-1">Transactions</span>
                                 <h3 class="card-title mb-2">$14,857</h3>
-                                <small class="text-success fw-semibold"><i class="bx bx-up-arrow-alt"></i> +28.14%</small>
+                                <small class="text-success fw-semibold"><i class="bx bx-up-arrow-alt"></i>
+                                    +28.14%</small>
                             </div>
                         </div>
                     </div>
@@ -342,7 +241,8 @@
                         <div class="card">
                             <div class="card-body">
                                 <div class="d-flex justify-content-between flex-sm-row flex-column gap-3">
-                                    <div class="d-flex flex-sm-column flex-row align-items-start justify-content-between">
+                                    <div
+                                        class="d-flex flex-sm-column flex-row align-items-start justify-content-between">
                                         <div class="card-title">
                                             <h5 class="text-nowrap mb-2">Profile Report</h5>
                                             <span class="badge bg-label-warning rounded-pill">Year 2021</span>
@@ -404,7 +304,8 @@
                             ><i class="bx bx-mobile-alt"></i
                                 ></span>
                                 </div>
-                                <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                                <div
+                                    class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                                     <div class="me-2">
                                         <h6 class="mb-0">Electronic</h6>
                                         <small class="text-muted">Mobile, Earbuds, TV</small>
@@ -416,9 +317,11 @@
                             </li>
                             <li class="d-flex mb-4 pb-1">
                                 <div class="avatar flex-shrink-0 me-3">
-                                    <span class="avatar-initial rounded bg-label-success"><i class="bx bx-closet"></i></span>
+                                        <span class="avatar-initial rounded bg-label-success"><i
+                                                class="bx bx-closet"></i></span>
                                 </div>
-                                <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                                <div
+                                    class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                                     <div class="me-2">
                                         <h6 class="mb-0">Fashion</h6>
                                         <small class="text-muted">T-shirt, Jeans, Shoes</small>
@@ -430,9 +333,11 @@
                             </li>
                             <li class="d-flex mb-4 pb-1">
                                 <div class="avatar flex-shrink-0 me-3">
-                                    <span class="avatar-initial rounded bg-label-info"><i class="bx bx-home-alt"></i></span>
+                                        <span class="avatar-initial rounded bg-label-info"><i
+                                                class="bx bx-home-alt"></i></span>
                                 </div>
-                                <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                                <div
+                                    class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                                     <div class="me-2">
                                         <h6 class="mb-0">Decor</h6>
                                         <small class="text-muted">Fine Art, Dining</small>
@@ -448,7 +353,8 @@
                             ><i class="bx bx-football"></i
                                 ></span>
                                 </div>
-                                <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                                <div
+                                    class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                                     <div class="me-2">
                                         <h6 class="mb-0">Sports</h6>
                                         <small class="text-muted">Football, Cricket Kit</small>
@@ -495,7 +401,7 @@
                             <div class="tab-pane fade show active" id="navs-tabs-line-card-income" role="tabpanel">
                                 <div class="d-flex p-4 pt-3">
                                     <div class="avatar flex-shrink-0 me-3">
-                                        <img src="../assets/img/icons/unicons/wallet.png" alt="User" />
+                                        <img src="../assets/img/icons/unicons/wallet.png" alt="User"/>
                                     </div>
                                     <div>
                                         <small class="text-muted d-block">Total Balance</small>
@@ -552,9 +458,10 @@
                         <ul class="p-0 m-0">
                             <li class="d-flex mb-4 pb-1">
                                 <div class="avatar flex-shrink-0 me-3">
-                                    <img src="../assets/img/icons/unicons/paypal.png" alt="User" class="rounded" />
+                                    <img src="../assets/img/icons/unicons/paypal.png" alt="User" class="rounded"/>
                                 </div>
-                                <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                                <div
+                                    class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                                     <div class="me-2">
                                         <small class="text-muted d-block mb-1">Paypal</small>
                                         <h6 class="mb-0">Send money</h6>
@@ -567,9 +474,10 @@
                             </li>
                             <li class="d-flex mb-4 pb-1">
                                 <div class="avatar flex-shrink-0 me-3">
-                                    <img src="../assets/img/icons/unicons/wallet.png" alt="User" class="rounded" />
+                                    <img src="../assets/img/icons/unicons/wallet.png" alt="User" class="rounded"/>
                                 </div>
-                                <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                                <div
+                                    class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                                     <div class="me-2">
                                         <small class="text-muted d-block mb-1">Wallet</small>
                                         <h6 class="mb-0">Mac'D</h6>
@@ -582,9 +490,10 @@
                             </li>
                             <li class="d-flex mb-4 pb-1">
                                 <div class="avatar flex-shrink-0 me-3">
-                                    <img src="../assets/img/icons/unicons/chart.png" alt="User" class="rounded" />
+                                    <img src="../assets/img/icons/unicons/chart.png" alt="User" class="rounded"/>
                                 </div>
-                                <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                                <div
+                                    class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                                     <div class="me-2">
                                         <small class="text-muted d-block mb-1">Transfer</small>
                                         <h6 class="mb-0">Refund</h6>
@@ -597,9 +506,11 @@
                             </li>
                             <li class="d-flex mb-4 pb-1">
                                 <div class="avatar flex-shrink-0 me-3">
-                                    <img src="../assets/img/icons/unicons/cc-success.png" alt="User" class="rounded" />
+                                    <img src="../assets/img/icons/unicons/cc-success.png" alt="User"
+                                         class="rounded"/>
                                 </div>
-                                <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                                <div
+                                    class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                                     <div class="me-2">
                                         <small class="text-muted d-block mb-1">Credit Card</small>
                                         <h6 class="mb-0">Ordered Food</h6>
@@ -612,9 +523,10 @@
                             </li>
                             <li class="d-flex mb-4 pb-1">
                                 <div class="avatar flex-shrink-0 me-3">
-                                    <img src="../assets/img/icons/unicons/wallet.png" alt="User" class="rounded" />
+                                    <img src="../assets/img/icons/unicons/wallet.png" alt="User" class="rounded"/>
                                 </div>
-                                <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                                <div
+                                    class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                                     <div class="me-2">
                                         <small class="text-muted d-block mb-1">Wallet</small>
                                         <h6 class="mb-0">Starbucks</h6>
@@ -627,9 +539,11 @@
                             </li>
                             <li class="d-flex">
                                 <div class="avatar flex-shrink-0 me-3">
-                                    <img src="../assets/img/icons/unicons/cc-warning.png" alt="User" class="rounded" />
+                                    <img src="../assets/img/icons/unicons/cc-warning.png" alt="User"
+                                         class="rounded"/>
                                 </div>
-                                <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
+                                <div
+                                    class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
                                     <div class="me-2">
                                         <small class="text-muted d-block mb-1">Mastercard</small>
                                         <h6 class="mb-0">Ordered Food</h6>
@@ -646,7 +560,5 @@
             </div>
             <!--/ Transactions -->
         </div>
-    </div>
-        <!-- / Content -->
 
 @endsection
