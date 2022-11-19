@@ -1,4 +1,4 @@
-@extends('layouts.master', ['title' => 'Welcome to Dashboard'])
+@extends('layouts.master', ['title' => 'Navbar'])
 
 @section('content')
     <!-- Content -->

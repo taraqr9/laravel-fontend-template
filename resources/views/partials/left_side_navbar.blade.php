@@ -301,12 +301,12 @@
             </a>
             <ul class="menu-sub">
                 <li class="menu-item">
-                    <a href="extended-ui-perfect-scrollbar.html" class="menu-link">
+                    <a href="{{ route('extended-ui.perfect-scrollbar') }}" class="menu-link">
                         <div data-i18n="Perfect Scrollbar">Perfect scrollbar</div>
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a href="extended-ui-text-divider.html" class="menu-link">
+                    <a href="{{ route('extended-ui.text-divider') }}" class="menu-link">
                         <div data-i18n="Text Divider">Text Divider</div>
                     </a>
                 </li>
@@ -314,7 +314,7 @@
         </li>
 
         <li class="menu-item">
-            <a href="icons-boxicons.html" class="menu-link">
+            <a href="{{ route('box-icons.box-icons') }}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-crown"></i>
                 <div data-i18n="Boxicons">Boxicons</div>
             </a>
@@ -330,12 +330,12 @@
             </a>
             <ul class="menu-sub">
                 <li class="menu-item">
-                    <a href="forms-basic-inputs.html" class="menu-link">
+                    <a href="{{ route('form-elements.basic-inputs') }}" class="menu-link">
                         <div data-i18n="Basic Inputs">Basic Inputs</div>
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a href="forms-input-groups.html" class="menu-link">
+                    <a href="{{ route('form-elements.input-groups') }}" class="menu-link">
                         <div data-i18n="Input groups">Input groups</div>
                     </a>
                 </li>
@@ -348,12 +348,12 @@
             </a>
             <ul class="menu-sub">
                 <li class="menu-item">
-                    <a href="form-layouts-vertical.html" class="menu-link">
+                    <a href="{{ route('form-layouts.vertical-form') }}" class="menu-link">
                         <div data-i18n="Vertical Form">Vertical Form</div>
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a href="form-layouts-horizontal.html" class="menu-link">
+                    <a href="{{ route('form-layouts.horizontal-form') }}" class="menu-link">
                         <div data-i18n="Horizontal Form">Horizontal Form</div>
                     </a>
                 </li>
@@ -361,7 +361,7 @@
         </li>
         <!-- Tables -->
         <li class="menu-item">
-            <a href="tables-basic.html" class="menu-link">
+            <a href="{{ route('tables.tables') }}" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-table"></i>
                 <div data-i18n="Tables">Tables</div>
             </a>

@@ -133,3 +133,40 @@ Route::get('/user-interface/tooltips-popovers', function(){
 Route::get('/user-interface/typography', function(){
     return view ('user_interface.typography');
 })->name('user-interface.typography');
+
+// Extended Ui
+Route::get('/extended-ui/perfect-scrollbar', function(){
+    return view ('extended_ui.perfect_scrollbar');
+})->name('extended-ui.perfect-scrollbar');
+
+Route::get('/extended-ui/text-divider', function(){
+    return view ('extended_ui.text_divider');
+})->name('extended-ui.text-divider');
+
+// Box Icons
+Route::get('/box-icons/box-icons', function(){
+    return view ('box_icons.box_icons');
+})->name('box-icons.box-icons');
+
+// Form Elements
+Route::get('/form-elements/basic-inputs', function(){
+    return view ('form_elements.basic_inputs');
+})->name('form-elements.basic-inputs');
+
+Route::get('/form-elements/input-groups', function(){
+    return view ('form_elements.input_groups');
+})->name('form-elements.input-groups');
+
+// Form Layouts
+Route::get('/form-layouts/vertical-form', function(){
+    return view ('form_layouts.vertical_form');
+})->name('form-layouts.vertical-form');
+
+Route::get('/form-layouts/horizontal-form', function(){
+    return view ('form_layouts.horizontal_form');
+})->name('form-layouts.horizontal-form');
+
+// Tables
+Route::get('/tables/tables', function(){
+    return view ('tables.tables');
+})->name('tables.tables');
